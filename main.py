@@ -7,7 +7,7 @@ ROOT_DIR = os.path.dirname(__file__)
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
-DB_PATH = os.path.join(ROOT_DIR, "expenses.db")
+DB_PATH = "/tmp/expenses.db"
 CATEGORIES_PATH = os.path.join(ROOT_DIR, "categories.json")
 mcp = FastMCP(name="Expense Tracker")
 
