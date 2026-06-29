@@ -50,6 +50,7 @@ def list_expenses(start_date, end_date) -> list[dict]:
     cursor = conn.cursor()
     query = 'SELECT * FROM expenses WHERE date BETWEEN ? AND ? ORDER BY id ASC'
     params = [start_date, end_date]
+    cursor.execute(query, params)
     rows = cursor.fetchall()
     conn.close()
     cols = [d[0] for d in cursor.description] #cursor.description provides column names
@@ -65,7 +66,7 @@ def summarize(start_date, end_date, category=None):
     if category:
         query += ' AND category = ?'
         params.append(category)
-    query += 'GROUP BY category ORDER BY category ASC'
+    query += ' GROUP BY category ORDER BY category ASC'
     cursor.execute(query, params)
     cols = [d[0] for d in cursor.description] #cursor.description provides column names
     return [dict(zip(cols, row)) for row in cursor.fetchall()] #converting each row to a dictionary
