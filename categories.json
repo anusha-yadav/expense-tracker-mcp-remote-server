@@ -1,0 +1,112 @@
+{
+  "Food": [
+    "Groceries",
+    "Restaurants",
+    "Snacks",
+    "Coffee",
+    "Fast Food",
+    "Online Food Delivery"
+  ],
+  "Transportation": [
+    "Fuel",
+    "Taxi",
+    "Uber",
+    "Metro",
+    "Bus",
+    "Train",
+    "Flight",
+    "Parking",
+    "Vehicle Maintenance"
+  ],
+  "Housing": [
+    "Rent",
+    "Electricity",
+    "Water Bill",
+    "Internet",
+    "Gas",
+    "Furniture",
+    "Home Repairs"
+  ],
+  "Entertainment": [
+    "Movies",
+    "Games",
+    "OTT Subscriptions",
+    "Concerts",
+    "Books",
+    "Hobbies"
+  ],
+  "Shopping": [
+    "Clothes",
+    "Shoes",
+    "Accessories",
+    "Electronics",
+    "Beauty Products",
+    "Online Shopping"
+  ],
+  "Health": [
+    "Doctor",
+    "Medicines",
+    "Gym",
+    "Insurance",
+    "Medical Tests",
+    "Dental Care"
+  ],
+  "Education": [
+    "Courses",
+    "Books",
+    "College Fees",
+    "Certifications",
+    "Stationery",
+    "Online Learning"
+  ],
+  "Bills & Utilities": [
+    "Mobile Recharge",
+    "Electric Bill",
+    "Water Bill",
+    "Internet Bill",
+    "Credit Card Bill",
+    "Subscriptions"
+  ],
+  "Travel": [
+    "Hotels",
+    "Flights",
+    "Food During Travel",
+    "Local Transport",
+    "Travel Insurance",
+    "Sightseeing"
+  ],
+  "Personal Care": [
+    "Salon",
+    "Spa",
+    "Skincare",
+    "Haircare",
+    "Cosmetics"
+  ],
+  "Family": [
+    "Kids",
+    "Parents",
+    "Gifts",
+    "Family Events",
+    "Child Education"
+  ],
+  "Savings & Investments": [
+    "Fixed Deposit",
+    "Mutual Funds",
+    "Stocks",
+    "Emergency Fund",
+    "Retirement Savings"
+  ],
+  "Business": [
+    "Office Supplies",
+    "Software",
+    "Marketing",
+    "Client Meetings",
+    "Hosting",
+    "Cloud Services"
+  ],
+  "Miscellaneous": [
+    "Donations",
+    "Unexpected Expenses",
+    "Other"
+  ]
+}
